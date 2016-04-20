@@ -7,14 +7,45 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		208928E1249D824F6AE607C5 /* Pods_MySDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 44A8C825B13FC4809DE19950 /* Pods_MySDK.framework */; };
 		9C7D5CC71CC7B71800C5A089 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C7D5CC61CC7B71800C5A089 /* AppDelegate.swift */; };
 		9C7D5CC91CC7B71800C5A089 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C7D5CC81CC7B71800C5A089 /* ViewController.swift */; };
 		9C7D5CCC1CC7B71800C5A089 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9C7D5CCA1CC7B71800C5A089 /* Main.storyboard */; };
 		9C7D5CCE1CC7B71800C5A089 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9C7D5CCD1CC7B71800C5A089 /* Assets.xcassets */; };
 		9C7D5CD11CC7B71800C5A089 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9C7D5CCF1CC7B71800C5A089 /* LaunchScreen.storyboard */; };
+		9C7D5CE01CC7B73200C5A089 /* MySDK.h in Headers */ = {isa = PBXBuildFile; fileRef = 9C7D5CDF1CC7B73200C5A089 /* MySDK.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9C7D5CE41CC7B73200C5A089 /* MySDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9C7D5CDD1CC7B73200C5A089 /* MySDK.framework */; };
+		9C7D5CE51CC7B73200C5A089 /* MySDK.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 9C7D5CDD1CC7B73200C5A089 /* MySDK.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		9C7D5CEE1CC7BA2900C5A089 /* GoogleOAuth.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C7D5CED1CC7BA2900C5A089 /* GoogleOAuth.swift */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		9C7D5CE21CC7B73200C5A089 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9C7D5CBB1CC7B71800C5A089 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9C7D5CDC1CC7B73200C5A089;
+			remoteInfo = MySDK;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		9C7D5CE91CC7B73200C5A089 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				9C7D5CE51CC7B73200C5A089 /* MySDK.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		155BD0FDEC51C26EB2327455 /* Pods-MySDK.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MySDK.release.xcconfig"; path = "Pods/Target Support Files/Pods-MySDK/Pods-MySDK.release.xcconfig"; sourceTree = "<group>"; };
+		44A8C825B13FC4809DE19950 /* Pods_MySDK.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MySDK.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9C7D5CC31CC7B71800C5A089 /* MyApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9C7D5CC61CC7B71800C5A089 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9C7D5CC81CC7B71800C5A089 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +53,12 @@
 		9C7D5CCD1CC7B71800C5A089 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9C7D5CD01CC7B71800C5A089 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9C7D5CD21CC7B71800C5A089 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9C7D5CDD1CC7B73200C5A089 /* MySDK.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MySDK.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9C7D5CDF1CC7B73200C5A089 /* MySDK.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MySDK.h; sourceTree = "<group>"; };
+		9C7D5CE11CC7B73200C5A089 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9C7D5CEA1CC7B90C00C5A089 /* MyApp-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MyApp-Bridging-Header.h"; sourceTree = "<group>"; };
+		9C7D5CED1CC7BA2900C5A089 /* GoogleOAuth.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GoogleOAuth.swift; sourceTree = "<group>"; };
+		D6B87F914C6C40722B679C2D /* Pods-MySDK.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MySDK.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MySDK/Pods-MySDK.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +66,15 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9C7D5CE41CC7B73200C5A089 /* MySDK.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9C7D5CD91CC7B73200C5A089 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				208928E1249D824F6AE607C5 /* Pods_MySDK.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -39,7 +85,10 @@
 			isa = PBXGroup;
 			children = (
 				9C7D5CC51CC7B71800C5A089 /* MyApp */,
+				9C7D5CDE1CC7B73200C5A089 /* MySDK */,
 				9C7D5CC41CC7B71800C5A089 /* Products */,
+				C013B6DE1AFC72BFC82846A1 /* Pods */,
+				F05BC3E69500D6044A05109D /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -47,6 +96,7 @@
 			isa = PBXGroup;
 			children = (
 				9C7D5CC31CC7B71800C5A089 /* MyApp.app */,
+				9C7D5CDD1CC7B73200C5A089 /* MySDK.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -60,11 +110,50 @@
 				9C7D5CCD1CC7B71800C5A089 /* Assets.xcassets */,
 				9C7D5CCF1CC7B71800C5A089 /* LaunchScreen.storyboard */,
 				9C7D5CD21CC7B71800C5A089 /* Info.plist */,
+				9C7D5CEA1CC7B90C00C5A089 /* MyApp-Bridging-Header.h */,
 			);
 			path = MyApp;
 			sourceTree = "<group>";
 		};
+		9C7D5CDE1CC7B73200C5A089 /* MySDK */ = {
+			isa = PBXGroup;
+			children = (
+				9C7D5CDF1CC7B73200C5A089 /* MySDK.h */,
+				9C7D5CE11CC7B73200C5A089 /* Info.plist */,
+				9C7D5CED1CC7BA2900C5A089 /* GoogleOAuth.swift */,
+			);
+			path = MySDK;
+			sourceTree = "<group>";
+		};
+		C013B6DE1AFC72BFC82846A1 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D6B87F914C6C40722B679C2D /* Pods-MySDK.debug.xcconfig */,
+				155BD0FDEC51C26EB2327455 /* Pods-MySDK.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		F05BC3E69500D6044A05109D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				44A8C825B13FC4809DE19950 /* Pods_MySDK.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		9C7D5CDA1CC7B73200C5A089 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9C7D5CE01CC7B73200C5A089 /* MySDK.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
 		9C7D5CC21CC7B71800C5A089 /* MyApp */ = {
@@ -74,15 +163,37 @@
 				9C7D5CBF1CC7B71800C5A089 /* Sources */,
 				9C7D5CC01CC7B71800C5A089 /* Frameworks */,
 				9C7D5CC11CC7B71800C5A089 /* Resources */,
+				9C7D5CE91CC7B73200C5A089 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				9C7D5CE31CC7B73200C5A089 /* PBXTargetDependency */,
 			);
 			name = MyApp;
 			productName = MyApp;
 			productReference = 9C7D5CC31CC7B71800C5A089 /* MyApp.app */;
 			productType = "com.apple.product-type.application";
+		};
+		9C7D5CDC1CC7B73200C5A089 /* MySDK */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9C7D5CE61CC7B73200C5A089 /* Build configuration list for PBXNativeTarget "MySDK" */;
+			buildPhases = (
+				35B7AF346BE95DB4AEC93F68 /* Check Pods Manifest.lock */,
+				9C7D5CD81CC7B73200C5A089 /* Sources */,
+				9C7D5CD91CC7B73200C5A089 /* Frameworks */,
+				9C7D5CDA1CC7B73200C5A089 /* Headers */,
+				9C7D5CDB1CC7B73200C5A089 /* Resources */,
+				20CECF545DACE1123AA34799 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MySDK;
+			productName = MySDK;
+			productReference = 9C7D5CDD1CC7B73200C5A089 /* MySDK.framework */;
+			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
 
@@ -95,6 +206,9 @@
 				ORGANIZATIONNAME = tomkraina.com;
 				TargetAttributes = {
 					9C7D5CC21CC7B71800C5A089 = {
+						CreatedOnToolsVersion = 7.3;
+					};
+					9C7D5CDC1CC7B73200C5A089 = {
 						CreatedOnToolsVersion = 7.3;
 					};
 				};
@@ -113,6 +227,7 @@
 			projectRoot = "";
 			targets = (
 				9C7D5CC21CC7B71800C5A089 /* MyApp */,
+				9C7D5CDC1CC7B73200C5A089 /* MySDK */,
 			);
 		};
 /* End PBXProject section */
@@ -128,7 +243,47 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		9C7D5CDB1CC7B73200C5A089 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		20CECF545DACE1123AA34799 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MySDK/Pods-MySDK-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		35B7AF346BE95DB4AEC93F68 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		9C7D5CBF1CC7B71800C5A089 /* Sources */ = {
@@ -140,7 +295,23 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		9C7D5CD81CC7B73200C5A089 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9C7D5CEE1CC7BA2900C5A089 /* GoogleOAuth.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9C7D5CE31CC7B73200C5A089 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9C7D5CDC1CC7B73200C5A089 /* MySDK */;
+			targetProxy = 9C7D5CE21CC7B73200C5A089 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		9C7D5CCA1CC7B71800C5A089 /* Main.storyboard */ = {
@@ -249,10 +420,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
 				INFOPLIST_FILE = MyApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.tomkraina.MyApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "MyApp/MyApp-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
@@ -260,10 +435,58 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
 				INFOPLIST_FILE = MyApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.tomkraina.MyApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "MyApp/MyApp-Bridging-Header.h";
+			};
+			name = Release;
+		};
+		9C7D5CE71CC7B73200C5A089 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D6B87F914C6C40722B679C2D /* Pods-MySDK.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = MySDK/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.tomkraina.MySDK;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		9C7D5CE81CC7B73200C5A089 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 155BD0FDEC51C26EB2327455 /* Pods-MySDK.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = MySDK/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.tomkraina.MySDK;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
 		};
@@ -286,6 +509,16 @@
 				9C7D5CD71CC7B71800C5A089 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9C7D5CE61CC7B73200C5A089 /* Build configuration list for PBXNativeTarget "MySDK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9C7D5CE71CC7B73200C5A089 /* Debug */,
+				9C7D5CE81CC7B73200C5A089 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
